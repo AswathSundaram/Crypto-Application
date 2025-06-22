@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --prim: linear-gradient(0deg, #601d6d 0%, #000000 74%);
+    --sec: #ffffff;
+    --dcdark:#282b30;
+    --dclight: #424549; 
+    --font1: 'Sintony', sans-serif;
+    --font2: 'Poppins', sans-serif;
+}
+
+#webpack-dev-server-client-overlay{
+    display: none;
+}
+
+body{
+    position: relative;
+    margin: 0px;
+}
